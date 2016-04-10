@@ -10,10 +10,10 @@ import static org.junit.Assert.assertEquals;
 public class TwoSumTest {
     @Test
     public void twoSumTest() {
-        Solution solution = new Solution();
+        TwoSum twoSum = new TwoSum();
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-        int[] res = solution.twoSum(nums, target);
+        int[] res = twoSum.twoSum(nums, target);
         assertEquals(res[0], 0);
         assertEquals(res[1], 1);
     }
